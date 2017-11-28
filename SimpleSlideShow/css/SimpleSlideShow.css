@@ -1,0 +1,90 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.SimpleSlideBox
+{
+	position: relative;
+	overflow: hidden;
+}
+.SimpleSlideBox-Container
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	overflow: hidden;
+}
+.SimpleSlideBox-item
+{
+	float: left;
+	height: 100%;
+}
+.SimpleSlideBox-item>a
+{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.SimpleSlideBox-item>a>img
+{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.SimpleSlideBox-button
+{
+	position: absolute;
+	left: 0;
+	right: 0;
+    bottom: 5%;
+    width: 50%;
+    height: 7%;
+    margin: 0px auto;
+}
+.SimpleSlideBox-button>ul
+{
+	overflow: hidden;
+	height: 100%;
+	width: 100%;
+}
+.SimpleSlideBox-button>ul>li
+{
+	cursor: pointer;	
+	border-radius:5px;
+	margin:0 1%;
+	display: block;
+	height: 100%;
+	float: left;
+	background-color: #fff;
+}
+.SimpleSlideBox-button>ul>li.on
+{
+	background-color: #09f;
+}
+.SimpleSlideBox-button>ul>li:hover
+{
+	background-color: #09f;
+}
+.SimpleSlideBox-LeftBtn,
+.SimpleSlideBox-RightBtn
+{
+	cursor: pointer;
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 10%;
+    height: 20%;
+    margin: auto 0;
+    background-color: rgba(0,0,0,0.5);
+}
+.SimpleSlideBox-LeftBtn
+{
+	left: 0;
+}
+.SimpleSlideBox-RightBtn
+{
+	right: 0;
+}
+

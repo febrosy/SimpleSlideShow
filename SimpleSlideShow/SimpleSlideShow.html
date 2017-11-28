@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<link rel="stylesheet" href="css/SimpleSlideShow.css" />
+	<script type="text/javascript" src="js/jquery-1.7.2.min.js" ></script>
+	<script type="text/javascript" src="js/SimpleSlideShow.js" ></script>
+	<title>Document</title>
+</head>
+<body>
+	<div class="SimpleSlideBox" data-setting='{"width":400,"height":200,"speed":3000,"HoverAuto":true}'>
+		<div class="SimpleSlideBox-Container">
+			<div class="SimpleSlideBox-item"><a href=""><img src="img/1.jpg" /></a></div>
+			<div class="SimpleSlideBox-item"><a href=""><img src="img/2.jpg" /></a></div>
+			<div class="SimpleSlideBox-item"><a href=""><img src="img/3.jpg" /></a></div>
+			<div class="SimpleSlideBox-item"><a href=""><img src="img/4.jpg" /></a></div>
+			<div class="SimpleSlideBox-item"><a href=""><img src="img/5.jpg" /></a></div>
+			<div class="SimpleSlideBox-item"><a href=""><img src="img/7.jpg" /></a></div>
+			<div class="SimpleSlideBox-item"><a href=""><img src="img/1.jpg" /></a></div>
+		</div>
+		<div class="SimpleSlideBox-button">
+			<ul>
+				<li class="SimpleSlideBox-button-item on"></li>
+				<li class="SimpleSlideBox-button-item"></li>
+				<li class="SimpleSlideBox-button-item"></li>
+				<li class="SimpleSlideBox-button-item"></li>
+				<li class="SimpleSlideBox-button-item"></li>
+				<li class="SimpleSlideBox-button-item"></li>
+			</ul>
+		</div>
+		<div class="SimpleSlideBox-LeftBtn"></div>
+		<div class="SimpleSlideBox-RightBtn"></div>
+	</div>
+</body>
+<script>SimpleSlideShow.init($(".SimpleSlideBox"));</script>
+</html>
